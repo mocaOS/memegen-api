@@ -6,10 +6,16 @@ services:
       context: .
       dockerfile: Containerfile
     container_name: memegen
-    ports:
-      - "5001:5000"
+    # Coolify automatically handles port mapping via SERVICE_FQDN_MEMEGEN_5000
+    # Port mapping removed - Coolify will proxy automatically
     environment:
-      - DOMAIN=${DOMAIN:-}
+      # Coolify magic variable - automatically generates FQDN and assigns domain
+      # This tells Coolify to create a proxy to port 5000
+      - SERVICE_FQDN_MEMEGEN_5000
+      # Use the generated FQDN for the DOMAIN environment variable
+      - DOMAIN=$SERVICE_FQDN_MEMEGEN
+      # Alternative: use SERVICE_URL_MEMEGEN for full URL with protocol (http:// or https://)
+      # - DOMAIN=$SERVICE_URL_MEMEGEN
       - PORT=5000
       - DEFAULT_WATERMARK=${DEFAULT_WATERMARK:-}
       - DEBUG=${DEBUG:-false}
