@@ -11,7 +11,7 @@ keywords:
   - paper doll
   - chinese vampire
 text:
-  - style: LABEL
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.6
@@ -22,7 +22,7 @@ text:
     align: center
     start: 0.0
     stop: 0.0
-  - style: LABEL
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.1
@@ -33,7 +33,7 @@ text:
     align: center
     start: 0.0
     stop: 0.0
-  - style: LABEL
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.05

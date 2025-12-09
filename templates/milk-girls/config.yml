@@ -9,7 +9,7 @@ keywords:
   - casey weldon
   - surreal
 text:
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.02
@@ -20,7 +20,7 @@ text:
     align: center
     start: 0.0
     stop: 0.0
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.55
@@ -31,7 +31,7 @@ text:
     align: center
     start: 0.0
     stop: 0.0
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.3

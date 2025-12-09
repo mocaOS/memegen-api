@@ -10,7 +10,7 @@ keywords:
   - intense
   - columbia
 text:
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.05
@@ -19,7 +19,7 @@ text:
     scale_y: 0.2
     align: center
     angle: 0.0
-  - style: LOWER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.05

@@ -8,7 +8,7 @@ keywords:
   - questioning
   - theory
 text:
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.0
@@ -19,7 +19,7 @@ text:
     align: center
     start: 0.0
     stop: 1.0
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.0

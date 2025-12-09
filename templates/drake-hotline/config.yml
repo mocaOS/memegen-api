@@ -7,7 +7,7 @@ keywords:
   - yes
   - no
 text:
-  - style: DEFAULT
+  - style: upper
     color: black
     font: thick
     anchor_x: 0.5
@@ -18,7 +18,7 @@ text:
     align: center
     start: 0.0
     stop: 1.0
-  - style: DEFAULT
+  - style: upper
     color: black
     font: thick
     anchor_x: 0.5

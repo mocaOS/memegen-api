@@ -10,7 +10,7 @@ keywords:
   - area 51
   - lil mayo
 text:
-  - style: UPPER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.05
@@ -21,7 +21,7 @@ text:
     align: center
     start: 0.0
     stop: 0.0
-  - style: LOWER
+  - style: upper
     color: white
     font: thick
     anchor_x: 0.05
