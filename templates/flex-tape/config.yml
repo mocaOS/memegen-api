@@ -1,0 +1,55 @@
+name: Flex Tape Slap (Paper Jiangshi)
+source: https://knowyourmeme.com/memes/flex-tape
+keywords:
+  - flex tape
+  - phil swift
+  - slap
+  - leak
+  - water
+  - repair
+  - jiangshi
+  - paper doll
+  - chinese vampire
+text:
+  - style: LABEL
+    color: white
+    font: thick
+    anchor_x: 0.6
+    anchor_y: 0.1
+    angle: 0.0
+    scale_x: 0.35
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: LABEL
+    color: white
+    font: thick
+    anchor_x: 0.1
+    anchor_y: 0.6
+    angle: 0.0
+    scale_x: 0.8
+    scale_y: 0.3
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: LABEL
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.05
+    angle: 0.0
+    scale_x: 0.4
+    scale_y: 0.4
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - 12 assignments due tomorrow
+  - Me going to sleep
+  - My brain
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

@@ -1,0 +1,43 @@
+name: Arcane Singer
+source: https://knowyourmeme.com/memes/subcultures/arcane
+keywords:
+  - singing
+  - microphone
+  - robot
+  - cyborg
+  - announcement
+  - stage
+  - purple
+  - arcane
+  - steampunk
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.0
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: LOWER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.8
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - i am going to
+  - sing the song of my people
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

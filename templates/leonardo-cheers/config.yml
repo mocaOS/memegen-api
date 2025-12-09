@@ -1,33 +1,40 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Painted Gatsby Toast
+source: https://knowyourmeme.com/memes/leonardo-dicaprio-toast
 keywords:
-  -
+  - gatsby
+  - leonardo dicaprio
+  - cheers
+  - toast
+  - champagne
+  - drawing
+  - art
+  - creepy
 text:
   - style: UPPER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.0
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
-  - style: UPPER
+    stop: 0.0
+  - style: LOWER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.8
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
+    stop: 0.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - cheers
+  - old sport
 overlay:
   - center_x: 0.5
     center_y: 0.5

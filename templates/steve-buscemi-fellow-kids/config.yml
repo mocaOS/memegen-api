@@ -1,0 +1,41 @@
+name: Handsome Fellow Kids
+source: https://knowyourmeme.com/memes/how-do-you-do-fellow-kids
+keywords:
+  - Steve Buscemi
+  - 30 Rock
+  - Handsome Squidward
+  - Chad
+  - Music Band
+  - Skateboard
+  - Fellow Kids
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.0
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: LOWER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.8
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - how do you do
+  - fellow chads
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

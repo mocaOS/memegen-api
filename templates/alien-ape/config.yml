@@ -1,7 +1,11 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Alien Ape
+source: https://knowyourmeme.com/memes/alien-ape
 keywords:
-  -
+  - alien
+  - ape
+  - portrait
+  - duo
+  - mysterious
 text:
   - style: UPPER
     color: white
@@ -26,8 +30,8 @@ text:
     start: 0.0
     stop: 1.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - me explaining to my friend
+  - why aliens built the pyramids
 overlay:
   - center_x: 0.5
     center_y: 0.5

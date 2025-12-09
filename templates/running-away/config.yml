@@ -1,0 +1,52 @@
+name: Surreal Running Away Balloon
+source: https://knowyourmeme.com/memes/problems-stress-pain
+keywords:
+  - running away balloon
+  - holding me back
+  - surreal
+  - art
+  - dali
+  - weird
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.6
+    anchor_y: 0.1
+    angle: 0.0
+    scale_x: 0.35
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.02
+    anchor_y: 0.65
+    angle: 0.0
+    scale_x: 0.35
+    scale_y: 0.3
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.25
+    angle: 0.0
+    scale_x: 0.35
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - good grades
+  - procrastination
+  - me
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

@@ -1,0 +1,45 @@
+name: Tyrone Biggums HD
+source: https://knowyourmeme.com/memes/yall-got-any-more-of-them-pixels
+keywords:
+  - dave chappelle
+  - chappelles show
+  - crackhead
+  - scratching
+  - neck
+  - yall got any more of them
+  - smooth
+  - high quality
+  - rtx on
+  - painted
+  - surreal
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.0
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: LOWER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.8
+    angle: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - y'all got any more of them
+  - 4k textures
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

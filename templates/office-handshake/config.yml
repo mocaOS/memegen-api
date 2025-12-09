@@ -1,0 +1,42 @@
+name: Young Michael Scott Handshake Art
+source: 
+  https://knowyourmeme.com/memes/young-michael-scott-shaking-ed-trucks-hand
+keywords:
+  - the office
+  - michael scott
+  - handshake
+  - agreement
+  - painting
+  - drawing
+  - ed truck
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.02
+    anchor_y: 0.45
+    angle: 0.0
+    scale_x: 0.45
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.53
+    anchor_y: 0.45
+    angle: 0.0
+    scale_x: 0.45
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - My depression
+  - My anxiety
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

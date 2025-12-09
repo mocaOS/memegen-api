@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  memegen:
+    build:
+      context: .
+      dockerfile: Containerfile
+    container_name: memegen
+    # Coolify automatically handles port mapping via SERVICE_FQDN_MEMEGEN_5000
+    # Port mapping removed - Coolify will proxy automatically
+    environment:
+      # Coolify magic variable - automatically generates FQDN and assigns domain
+      # This tells Coolify to create a proxy to port 5000
+      - SERVICE_FQDN_MEMEGEN_5000
+      # Use the generated FQDN for the DOMAIN environment variable
+      - DOMAIN=$SERVICE_FQDN_MEMEGEN
+      # Alternative: use SERVICE_URL_MEMEGEN for full URL with protocol (http:// or https://)
+      # - DOMAIN=$SERVICE_URL_MEMEGEN
+      - PORT=5000
+      - DEFAULT_WATERMARK=${DEFAULT_WATERMARK:-}
+      - DEBUG=${DEBUG:-false}
+      - MAX_REQUESTS=${MAX_REQUESTS:-0}
+      - MAX_REQUESTS_JITTER=${MAX_REQUESTS_JITTER:-0}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/docs/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

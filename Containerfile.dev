@@ -1,0 +1,37 @@
+FROM docker.io/python:3.13.9-bookworm
+
+# Install system dependencies
+RUN apt update && apt install --yes webp cmake curl && rm -rf /var/lib/apt/lists/*
+
+# Install poetry
+RUN pip install --no-cache-dir poetry
+
+# Create the memegen user
+RUN useradd -md /opt/memegen -u 1000 memegen
+USER memegen
+
+# Set the working directory
+WORKDIR /opt/memegen
+
+# Copy dependency files
+COPY --chown=memegen pyproject.toml /opt/memegen/
+COPY --chown=memegen poetry.lock /opt/memegen/
+
+# Configure poetry and install dependencies (including dev dependencies)
+RUN poetry config virtualenvs.in-project true && \
+    poetry install --no-interaction --no-ansi
+
+# Copy project files (these will be overridden by volumes in dev mode)
+COPY --chown=memegen templates /opt/memegen/templates
+COPY --chown=memegen scripts /opt/memegen/scripts
+COPY --chown=memegen fonts /opt/memegen/fonts
+COPY --chown=memegen docs /opt/memegen/docs
+COPY --chown=memegen bin /opt/memegen/bin
+COPY --chown=memegen app /opt/memegen/app
+COPY --chown=memegen Procfile.dev /opt/memegen/Procfile.dev
+
+# Set environment variables
+ENV PATH="/opt/memegen/.venv/bin:${PATH}"
+
+# Default command (can be overridden in docker-compose.yml)
+CMD ["poetry", "run", "honcho", "start", "--procfile", "Procfile.dev"]

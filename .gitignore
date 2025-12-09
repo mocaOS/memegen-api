@@ -4,6 +4,7 @@
 /templates/<*
 /templates/*/_*
 /templates/*/*.*.*
+/templates/_generate
 
 # Dependencies
 .venv/
@@ -29,3 +30,5 @@ htmlcov/
 /site/
 
 .codegpt
+
+.DS_Store

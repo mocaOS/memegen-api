@@ -1,0 +1,33 @@
+name: Realistic Pim
+source: https://knowyourmeme.com/memes/subcultures/smiling-friends
+keywords:
+  - smiling friends
+  - pim
+  - pim pimling
+  - realistic
+  - stare
+  - creepy
+  - intense
+  - columbia
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    angle: 0.0
+  - style: LOWER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.75
+    scale_x: 0.9
+    scale_y: 0.25
+    align: center
+    angle: 0.0
+example:
+  - DO YOU HAVE GAMES
+  - ON YOUR PHONE?

@@ -1,0 +1,34 @@
+name: Surreal Aliens
+source: https://knowyourmeme.com/memes/ancient-aliens
+keywords:
+  - aliens
+  - explaining
+  - surreal
+  - weird
+  - face
+  - clay
+  - art
+  - hands
+  - giorgio tsoukalos
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.0
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    angle: 0.0
+  - style: LOWER
+    color: white
+    font: thick
+    anchor_x: 0.05
+    anchor_y: 0.8
+    scale_x: 0.9
+    scale_y: 0.2
+    align: center
+    angle: 0.0
+example:
+  - I'm not saying it's abstract art
+  - but it's abstract art

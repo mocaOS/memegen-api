@@ -1,33 +1,42 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Lumbergh Y Tho
+source: http://knowyourmeme.com/memes/y-tho
 keywords:
-  -
+  - office space
+  - bill lumbergh
+  - y tho
+  - y no
+  - fernando botero
+  - pope leo x
+  - face swap
+  - that would be great
+  - mashup
+  - suspenders
 text:
   - style: UPPER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.0
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
+    stop: 0.0
   - style: UPPER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.8
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
+    stop: 0.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - yeah, if you could just tell me
+  - y tho
 overlay:
   - center_x: 0.5
     center_y: 0.5

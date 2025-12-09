@@ -120,7 +120,7 @@ def init(app: Sanic):
     app.ext.openapi.contact(name="support", email="support@maketested.com")
     app.ext.openapi.license(
         name="View the license",
-        url="https://github.com/jacebrowning/memegen/blob/main/LICENSE.txt",
+        url="https://github.com/mocaOS/memegen-api/blob/main/LICENSE.txt",
     )
 
     app.error_handler = BugsnagErrorHandler()

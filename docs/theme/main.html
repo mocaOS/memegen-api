@@ -4,7 +4,9 @@
 
 {% block extrahead %}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
     table,
@@ -71,10 +73,7 @@
 </li>
 
 <form class="form-inline m-2 my-lg-0">
-    <a
-        href="https://memecomplete.com/custom/?standard=true"
-        class="btn btn-sm btn-secondary"
-    >
+    <a href="https://memecomplete.com/custom/?standard=true" class="btn btn-sm btn-secondary">
         Create a Meme
     </a>
 </form>
@@ -103,11 +102,9 @@
 
 {% block scripts %} {{ super() }}
 
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.11/iframeResizer.min.js"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.11/iframeResizer.min.js"
     integrity="sha512-HY1lApSG7xxx8mYzs/lxRs+c5AaDThRaa3pvQB6puiswvf2lWqMJVf+8qSGiL4ZXfHQoPIqbd1TlpqfycPo3cQ=="
-    crossorigin="anonymous"
-></script>
+    crossorigin="anonymous"></script>
 
 <script>
     iFrameResize({ checkOrigin: false, resizedCallback: onResized })

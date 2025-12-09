@@ -1,7 +1,11 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Decc0 Choke
+source:
 keywords:
-  -
+  - decc0
+  - choke
+  - laser
+  - eyes
+  - camera
 text:
   - style: UPPER
     color: white
@@ -26,8 +30,8 @@ text:
     start: 0.0
     stop: 1.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - delete this
+  - immediately
 overlay:
   - center_x: 0.5
     center_y: 0.5

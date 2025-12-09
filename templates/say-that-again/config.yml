@@ -1,33 +1,39 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Artistic Pulp Fiction Gun
+source: http://knowyourmeme.com/memes/say-what-again
 keywords:
-  -
+  - pulp fiction
+  - jules winnfield
+  - samuel l jackson
+  - gun
+  - pointing
+  - art
+  - painting
 text:
   - style: UPPER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.0
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
+    stop: 0.0
   - style: UPPER
     color: white
     font: thick
-    anchor_x: 0.0
+    anchor_x: 0.05
     anchor_y: 0.8
     angle: 0.0
-    scale_x: 1.0
+    scale_x: 0.9
     scale_y: 0.2
     align: center
     start: 0.0
-    stop: 1.0
+    stop: 0.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - say what again
+  - i dare you
 overlay:
   - center_x: 0.5
     center_y: 0.5

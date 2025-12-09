@@ -1,0 +1,53 @@
+name: Forced to Drink Milk
+source: https://knowyourmeme.com/memes/forced-to-drink-milk
+keywords:
+  - art
+  - painting
+  - women
+  - milk
+  - forcing
+  - casey weldon
+  - surreal
+text:
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.02
+    anchor_y: 0.02
+    angle: 0.0
+    scale_x: 0.45
+    scale_y: 0.3
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.55
+    anchor_y: 0.1
+    angle: 0.0
+    scale_x: 0.4
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: UPPER
+    color: white
+    font: thick
+    anchor_x: 0.3
+    anchor_y: 0.55
+    angle: -10.0
+    scale_x: 0.3
+    scale_y: 0.2
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - Me
+  - My friends
+  - My obscure interests
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

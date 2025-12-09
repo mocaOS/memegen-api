@@ -1,0 +1,43 @@
+name: Trippy Couple in Bed
+source: https://knowyourmeme.com/memes/i-bet-hes-thinking-about-other-women
+keywords:
+  - couple
+  - bed
+  - surreal
+  - art
+  - thinking
+  - sleeping
+  - green skin
+  - mask
+  - ai
+text:
+  - style: DEFAULT
+    color: white
+    font: thick
+    anchor_x: 0.02
+    anchor_y: 0.6
+    angle: 0.0
+    scale_x: 0.45
+    scale_y: 0.35
+    align: center
+    start: 0.0
+    stop: 0.0
+  - style: DEFAULT
+    color: white
+    font: thick
+    anchor_x: 0.53
+    anchor_y: 0.5
+    angle: 0.0
+    scale_x: 0.45
+    scale_y: 0.45
+    align: center
+    start: 0.0
+    stop: 0.0
+example:
+  - I bet he's thinking about other women
+  - Is a strawberry a fruit or a hat?
+overlay:
+  - center_x: 0.5
+    center_y: 0.5
+    angle: 0.0
+    scale: 0.25

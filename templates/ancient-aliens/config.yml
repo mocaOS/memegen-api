@@ -1,7 +1,12 @@
-name: Spongebob Rainbow
-source: https://knowyourmeme.com/memes/spongebob-rainbow
+name: Ancient Aliens Guy
+source: https://knowyourmeme.com/memes/ancient-aliens
 keywords:
-  -
+  - alien
+  - ancient
+  - conspiracy
+  - explanation
+  - questioning
+  - theory
 text:
   - style: UPPER
     color: white
@@ -26,8 +31,8 @@ text:
     start: 0.0
     stop: 1.0
 example:
-  - when you finally understand
-  - the meaning of life
+  - ancient astronaut theorists say yes
+  - aliens
 overlay:
   - center_x: 0.5
     center_y: 0.5
