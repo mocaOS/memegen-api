@@ -4,16 +4,16 @@
 
 An API to programmatically generate memes based solely on requested URLs. Built for the [Art DeCC0s community](https://discord.com/invite/Rs7wxUTrWV) and part of MOCA's [Vibe Studio](https://vibe.museumofcryptoart.com) ecosystem.
 
-[![API Docs](https://img.shields.io/badge/API-Documentation-FF9500)](https://api-memegen.decc0s.com/docs/) [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-FF9500)](https://api-memegen.decc0s.com/openapi.json) [![Meme Generator](https://img.shields.io/badge/App-memes.decc0s.com-FF9500)](https://memes.decc0s.com) [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/mocaOS/memegen-api/blob/main/LICENSE.txt)
+[![API Docs](https://img.shields.io/badge/API-Documentation-FF9500)](https://api-memegen.decc0s.com/docs/) [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-FF9500)](https://api-memegen.decc0s.com/docs/openapi.json) [![Meme Generator](https://img.shields.io/badge/App-memes.decc0s.com-FF9500)](https://memegen.decc0s.com) [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/mocaOS/memegen-api/blob/main/LICENSE.txt)
 
 ## About Art DeCC0s
 
 Art DeCC0s are the Museum of Crypto Art's 10,000-piece PFP collection—a love-letter to crypto art and its amazing artists, collectors, developers, and admirers. Each DeCC0 is a completely unique 1/1 character with unprecedented visual diversity and, through [The Codex](https://codex.decc0s.com), deep AI-driven personalities.
 
-This API powers the community meme generator at [memes.decc0s.com](https://memes.decc0s.com), enabling community members to create and share memes that become part of Art DeCC0s culture and history.
+This API powers the community meme generator at [memegen.decc0s.com](https://memegen.decc0s.com), enabling community members to create and share memes that become part of Art DeCC0s culture and history.
 
 **Community Links:**
-- 🎨 [Meme Generator](https://memes.decc0s.com) - Create memes with this API
+- 🎨 [Meme Generator](https://memegen.decc0s.com) - Create memes with this API
 - 💬 [Art DeCC0s Discord](https://discord.com/invite/Rs7wxUTrWV) - Join the community
 - 📖 [The Codex](https://codex.decc0s.com) - Explore DeCC0 personalities
 - 🏛️ [Vibe Studio](https://vibe.museumofcryptoart.com) - MOCA's application hub
@@ -185,7 +185,7 @@ This API is part of the Art DeCC0s community infrastructure, supporting meme cre
 
 ### Create & Share Memes
 
-1. **Use the Meme Generator**: Visit [memes.decc0s.com](https://memes.decc0s.com) for a user-friendly interface
+1. **Use the Meme Generator**: Visit [memegen.decc0s.com](https://memegen.decc0s.com) for a user-friendly interface
 2. **Or use this API directly**: Generate memes programmatically with URL-based requests
 3. **Share with the community**: Post your creations in the [Art DeCC0s Discord](https://discord.com/invite/Rs7wxUTrWV)
 4. **View the collection**: Community memes live on at [Vibe Studio](https://vibe.museumofcryptoart.com)
