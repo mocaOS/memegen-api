@@ -4,7 +4,7 @@
 
 An API to programmatically generate memes based solely on requested URLs. Built for the [Art DeCC0s community](https://discord.com/invite/Rs7wxUTrWV) and part of MOCA's [Vibe Studio](https://vibe.museumofcryptoart.com) ecosystem.
 
-[![API Docs](https://img.shields.io/badge/API-Documentation-FF9500)](https://api-memegen.decc0s.com/docs/) [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-FF9500)](https://api-memegen.decc0s.com/docs/openapi.json) [![Meme Generator](https://img.shields.io/badge/App-memes.decc0s.com-FF9500)](https://memegen.decc0s.com) [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/mocaOS/memegen-api/blob/main/LICENSE.txt)
+[![API Docs](https://img.shields.io/badge/API-Documentation-FF9500)](https://api-memegen.decc0s.com/docs/) [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-FF9500)](https://api-memegen.decc0s.com/docs/openapi.json) [![Meme Generator](https://img.shields.io/badge/App-memegen.decc0s.com-FF9500)](https://memegen.decc0s.com) [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/mocaOS/memegen-api/blob/main/LICENSE.txt)
 
 ## About Art DeCC0s
 
