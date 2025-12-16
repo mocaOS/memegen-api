@@ -9,7 +9,7 @@ text:
     anchor_x: 0.10
     anchor_y: 0.7
     angle: 0.0
-    scale_x: 0.325
+    scale_x: 0.295
     scale_y: 0.1
     align: center
     start: 0.0
@@ -17,8 +17,8 @@ text:
   - style: default
     color: white
     font: thick
-    anchor_x: 0.53
-    anchor_y: 0.45
+    anchor_x: 0.51
+    anchor_y: 0.44
     angle: 0.0
     scale_x: 0.175
     scale_y: 0.1
@@ -29,7 +29,7 @@ text:
     color: white
     font: thick
     anchor_x: 0.67
-    anchor_y: 0.61
+    anchor_y: 0.63
     angle: 0.0
     scale_x: 0.3
     scale_y: 0.2
