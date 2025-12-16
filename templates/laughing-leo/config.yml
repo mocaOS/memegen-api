@@ -1,7 +1,7 @@
-name: Evil Gatsby
+name: Evil Candie
 source: http://knowyourmeme.com/memes/leonardo-dicaprio-cheers
 keywords:
-  - gatsby
+  - django
   - toast
   - leonardo dicaprio
   - evil
@@ -33,8 +33,8 @@ text:
     start: 0.0
     stop: 0.0
 example:
-  - when the chaos
-  - goes exactly as planned
+  - why, yes!
+  - the devil does owe me one
 overlay:
   - center_x: 0.5
     center_y: 0.5
